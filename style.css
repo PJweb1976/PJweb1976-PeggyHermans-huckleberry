@@ -8,8 +8,12 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+}
+/*
+html {
+  font-size: 18px;
+}  */
 
-  }
 main {
   border-top: 5px solid hsl(0deg, 0%, 40%);
   height: 100%;
@@ -29,8 +33,8 @@ p {
   box-sizing: border-box;
   margin: 40px auto 40px auto;
   max-width: 50%;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 0 24px;
+  
   
 }
 .intro-chunk {
@@ -47,15 +51,17 @@ p {
 }
 
 .indented-heading {
-  padding: 24px 36px;
+  padding: 16px 32px;
   margin-left: -32px;
   margin-top: -8px;
-  width: max-content;
+  width: fit-content;
   background-color: hsl(45deg, 100%, 50%);
   box-shadow:  0px 5px 0px 0px hsl(45deg, 100%, 40%);
   }
 
-
+.card :last-child {
+  margin-bottom: 0;
+}
 
 
 /* Add styles here! */
